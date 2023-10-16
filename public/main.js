@@ -4,7 +4,7 @@ let myDiv = document.querySelector('div')
 
 
 carBtn.addEventListener('click', () => {
-    axios.get('/cars')
+    axios.get('/car')
     .then((response) => {
         let carName = response.data
 
